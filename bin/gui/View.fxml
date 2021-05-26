@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.PointLight?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="582.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+   <children>
+      <Label text="Placa" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="100.0" />
+      <Label layoutX="48.0" layoutY="64.0" text="Ano" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="130.0" />
+      <Label layoutX="48.0" layoutY="87.0" text="Cor" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="160.0" />
+      <Label layoutX="48.0" layoutY="110.0" text="Marca" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="190.0" />
+      <Label text="Modelo" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="220.0" />
+      <Label text="Chassi" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="250.0" />
+      <Label text="Proprietaio" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="280.0" />
+      <TextField fx:id="txtPlaca" layoutX="91.0" layoutY="96.0" AnchorPane.leftAnchor="150.0" />
+      <TextField fx:id="txtAno" layoutX="91.0" layoutY="126.0" AnchorPane.leftAnchor="150.0" />
+      <TextField fx:id="txtCor" layoutX="91.0" layoutY="156.0" AnchorPane.leftAnchor="150.0" />
+      <TextField fx:id="txtMarca" layoutX="91.0" layoutY="186.0" AnchorPane.leftAnchor="150.0" />
+      <TextField fx:id="txtModelo" layoutX="91.0" layoutY="216.0" AnchorPane.leftAnchor="150.0" />
+      <TextField fx:id="txtChassi" layoutX="91.0" layoutY="246.0" AnchorPane.leftAnchor="150.0" />
+      <TextField fx:id="txtProprietario" layoutX="91.0" layoutY="276.0" AnchorPane.leftAnchor="150.0" />
+      <TextField fx:id="txtDataDeCompra" layoutX="150.0" layoutY="306.0" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="306.0" />
+      <Label text="Data De Compra" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="310.0" />
+      <Label layoutX="207.0" layoutY="14.0" text="Bem Vindo">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btAddNew" layoutX="26.0" layoutY="389.0" mnemonicParsing="false" onAction="#onBtAddNew" text="Adicionar Novo" />
+      <Button fx:id="btThirdElement" layoutX="32.0" layoutY="433.0" mnemonicParsing="false" onAction="#onBtThirdElement" text="Inserir Carro na 3º posição" />
+      <Button fx:id="btFirstLast" layoutX="131.0" layoutY="389.0" mnemonicParsing="false" onAction="#onBtFirstLast" text="Exibir Placa 1º e ultimo" />
+      <Button fx:id="btRemoveLast" layoutX="278.0" layoutY="389.0" mnemonicParsing="false" onAction="#onBtRemoveLast" text="Remover Ultimo" />
+      <Label layoutX="26.0" layoutY="554.0" text="Weverton Pereira Alves" />
+      <Label layoutX="217.0" layoutY="554.0" text="Programação ll" />
+      <Button fx:id="btShowAll" layoutX="196.0" layoutY="433.0" mnemonicParsing="false" onAction="#onBtShowAll" text="Mostrar todos" />
+      <PointLight color="CHARTREUSE" layoutX="50.0" layoutY="66.0" lightOn="true" />
+   </children>
+</AnchorPane>
